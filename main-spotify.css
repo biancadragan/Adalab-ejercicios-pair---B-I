@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 30px;
+}
+
+.menu-hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.blue-section {
+    background-color: #1d73b9;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.blue-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.blue-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.blue-section .button {
+    background-color: rgb(26, 131, 16);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.blue-section small {
+    display: block;
+    margin-top: 10px;
+    font-size: 8px;
+}
+
+.beneficio {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.beneficios h2 {
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+}
+
+.beneficio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.beneficios img {
+    margin-right: 15px;
+    width: 40px;
+    height: 40p;
+}
+
+.beneficio p {
+    margin: 0;
+    flex: 1;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .blue-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .blue-section p {
+        font-size: 1rem;
+    }
+
+    .beneficios img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .beneficios p {
+        font-size: 0.9rem;
+    }
+}
