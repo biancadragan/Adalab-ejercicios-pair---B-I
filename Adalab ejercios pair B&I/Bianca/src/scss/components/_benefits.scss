@@ -1,0 +1,62 @@
+@media (width > 480px) {
+    .benefits 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .benefits__item {
+        width: 250px;
+    }
+}
+
+.benefits__item {
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+
+    
+}
+
+@media (width > 480px) {
+    .benefits 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .benefits__item {
+        width: 250px;
+    }
+}
+
+.benefits__item {
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+
+    
+}
+
+@media (width > 1000px) {
+    .benefits 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .benefits__item {
+        width: px;
+    }
+}
+
+.benefits__item {
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    max-width: px;
+
+    
+}

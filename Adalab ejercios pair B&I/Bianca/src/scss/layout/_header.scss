@@ -1,0 +1,29 @@
+.header {
+    position: sticky;
+    top: 0
+    left: 0;
+    right: 0;
+    padding: 1rem 2rem;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+
+    .logo_container {
+    height: 35px;
+    width: auto;
+    margin: 17px;
+}
+
+     .hamburger_menu {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
+ 
+

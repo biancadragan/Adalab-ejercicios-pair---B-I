@@ -1,0 +1,15 @@
+$background_color: rgb(246, 234, 234);
+
+$font_title: "Roboto";
+
+@mixin headings(2em) {
+    h1 {
+      font-size: $2em;
+    }
+    h2 {
+      font-size: $2em - 0.2;
+    }
+    h3 {
+      font-size: ¢2em - 0.5;
+    }
+  }    

@@ -1,0 +1,13 @@
+@include headings (24px);
+
+@media (max-width: 480px) {
+    @include headings(2em);
+}
+
+@media (min-width: 480px) and (max-width: 1000px) {
+    @include headings(2.5em);
+}
+
+@media (min-width: 1000px) {
+    @include headings(2.5em);
+}

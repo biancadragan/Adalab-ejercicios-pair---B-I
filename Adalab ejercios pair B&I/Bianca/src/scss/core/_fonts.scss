@@ -1,0 +1,41 @@
+:root {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+    
+
+
+body {
+    font-family: sans-serif;
+}
+
+@mixin encabezados {
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    h6 {
+        font-size: 8px;
+    }
+
+}
+
+p {
+    font-size: 12px;
+}
+
+a: link {
+    text-decoration: none;
+}
+
+ 

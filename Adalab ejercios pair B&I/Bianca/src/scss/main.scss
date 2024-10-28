@@ -1,0 +1,17 @@
+@import 'core-reset';
+@import 'header';
+@import 'componets';
+@import 'body';
+@import 'benefits'
+
+@media (100px < width) {
+    .copy {
+        position: static;
+        transform: none;
+        background-color: transparent;
+        border: none;
+    
+    }
+ 
+}
+
